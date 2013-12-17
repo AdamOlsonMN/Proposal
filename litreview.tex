@@ -1,0 +1,170 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{bigstrut}
+
+%% fonts
+\usepackage[utopia]{mathdesign}
+\usepackage[scaled=.95]{inconsolata}
+
+%% page margins, inter-paragraph space and no chapters
+\usepackage[margin=1.1in]{geometry}
+\setlength{\parskip}{0.5em}
+\renewcommand{\thesection}{\arabic{section}}
+
+%% bibliography
+%\usepackage[american]{babel}
+%\usepackage{csquotes}
+%\usepackage[style=apa,natbib=true,backend=biber]{biblatex}
+%\DeclareLanguageMapping{american}{american-apa}
+%\addbibresource{EITC.bib}
+
+%% For actual bib
+\usepackage{natbib}
+\bibpunct{(}{)}{,}{author-year}{}{,}
+
+%% Fuck with the title
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  \textbf{\@title}
+
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+%% for memisc
+\usepackage{booktabs}
+\usepackage{dcolumn}
+
+%% define a dark blue
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,.5}
+
+%% hyperlinks to references
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\author{Adam Olson\\University of Minnesota}
+\title{Introduction Draft}
+\date{October 31, 2013}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\defcitealias{omb2013}{OMB 2013}
+Traditionally, many scholars who studied comparative welfare states referred to the United States as exceptional because they believed any welfare state the United States had was less generous, developed later, and was smaller than welfare states in comparable developed countries (See especially \citealt{andersen1990}). In a very well received challenge to this conventional wisdom, \citet{hacker2002} pointed out, the ``welfare state'' is a contested idea both among political activists and scholars of welfare politics and that not every country provides social policy in a uniform manner. Since then, scholars including Jacob Hacker, Christopher Howard, and others have made a compelling case that the United States is \emph{not} smaller or less generous than European welfare states but instead have argued that what ``is exceptional about the American welfare state is not the level of spending but the source'' of spending \citep[pg. 7]{hacker2002}.
+
+To that point, social policy in the the United States generally belongs to one of two types: visible welfare programs and hidden welfare programs. Visible welfare programs are what most people view as welfare programs in the United States such as Medicare or Social Security. These are programs that are generally well known to politicians, interest groups, and the mass public and they are consistently salient in the national agenda. Traditionally, these are the programs which scholars refer to when they discuss measurements such as welfare effort or welfare spending - they are apparent attempts by the government to alleviate some socially undesirable problem such as poverty or hunger.
+
+Hidden welfare programs, also known as the hidden welfare state, at the most basic level is social policy that is distributed through the tax code as tax expenditures \citep{howard1997}\footnote{A more legalistic definition of tax expenditures is provided in the the Congressional Budget and Impoundment Control Act of 1974 as ``revenue losses attributable to provisions of the Federal tax laws which allow a special exclusion, exemption, or deduction from gross income or which provide a special credit, a preferential rate of tax, or a deferral of tax liability.''}.  This type of welfare through the tax code cost the federal government 1.1 trillion dollars in 2013 which by some estimates is more than was spent on visible welfare programs \citep{omb2013}. Whereas, elderly Americans can apply for social security once they turn 62  then receive a check each month, the hidden welfare state is largely administered through the tax code without much bureaucratic overhead like with Social Security. Like in the visible welfare state, the government tries to alleviate social ills such as poverty or hunger but it does so in a way that is not evident to most people and generally uses less obvious policy making processes.
+
+While our understanding of the hidden welfare state and thus the political aspects of American social policy has increased overall due to this work, it remains incomplete.  Specifically, there remain two sizable gaps in the literature. First, previous literature has studied hidden welfare programs largely in isolation from visible programs. This necessarily produces an incomplete story in trying to understand the politics of American social policy on a broader level. Both visible and hidden programs seek to alleviate some sort of social ill and while the programs utilize different strategies to accomplish this goal, they remain linked together by this common goal. From that perspective, we do not understand how hidden and visible programs interact with each other politically even if they seek to accomplish the same goal. Over time, both hidden and visible programs develop in relation to each other, accounting for relevant existing policy. By examining both hidden and visible policies on an individual level that have similar goals we can understand how individual hidden and visible programs were created and maintained vis-à-vis each other in a way not previously done.
+
+The second gap in previous literature is that policy hiddenness is assumed to be a binary, hidden \emph{or} visible, measurement when in actuality there is far more variability in policy visibility. The United States produces and maintains a wide variety of social programs so it is entirely plausible that program visibility falls along a wide and diverse distribution of variety. As such, there can be variation among to whom the policy is hidden. For instance, hiddenness could mean different things to those eligible for a program. Do they need to go to a government office, wait in line, and prove to a government worker that they are eligible for the program or are they able to claim the benefit on their own tax form and then receive it in their tax return? In other words, there can be variation in how hidden a program is to the public or potential recipients. There are also policies which do not fit perfectly within a hidden or not hidden label. Perhaps a policy doesn't require an eligible citizen to visit a government office but isn't as easy as claiming it on a tax form.
+
+Within that same line of reasoning, hiddenness could also mean different things to lawmakers in Congress. Did the proposed policy encounter strong resistance during the creation process or was it passed largely largely without controversy? Similarly, was any of the resistance towards the policy continued (or created) after enactment or did the policy persist unperturbed? By thinking of hiddenness as a continuous rather than a discrete measurement we are able to develop many interesting implications for program creation and durability. A policy which was easily and discretely passed by Congress thirty years ago could potentially explode with salience after citizens learn about and start utilizing the benefit which might make policy maintenance efforts more difficult.
+
+Literature on how the United States creates welfare policy is strangely devoid of insight from the extremely voluminous literature on congressional policy making.
+
+\textbf{INCLUDE PART ABOUT CONGRESSIONAL POLICY MAKING IN INTRODUCTION}
+
+It is within those two gaps where I hope to make my contribution to this literature. By examining how individual programs are created and persist vis-a-vie each other, this dissertation will contribute a deeper understanding of American welfare politics overall. Additionally, by reexamining what visibility means to individuals, politicians, and the policy making process while applying a more continuous rather than discrete understanding of visibility, this dissertation will contribute to the hidden welfare state literature by detailing a more complicated view of program visibility.
+
+\section{Previous Literature}
+
+The American welfare state literature is rich and well developed, not only in descriptive accounts but also concerning relevant policy making factors. Broadly in this section, I discuss both of those parts. In the first subsection, I overview descriptively the American welfare state, focusing on the types of the mechanisms the government uses to provide social policy. In the second subsection, I describe the traditional hypotheses of social policy making in the United States and then discuss several shortcomings of these hypotheses. 
+
+\subsection{What does American Social Policy Making Look Like?}
+Many scholars have argued that social policy in the United States lags behind other developed democracies, but it is not lack of social spending that makes America unique, it is the way in which it provides social policy \citep{hacker2002}. Since the end of the second world war, the United States has predominantly used four mechanisms with which to provide social policy: visible spending, regulation, guaranteed rights, and tax expenditures \citep{pierson2007}. All of those mechanisms, but especially tax expenditures have seen explosive growth in the post war period. Tax expenditures are provisions in the tax code that favor or incentive certain desired behavior and they are functionally equivalent to traditional government outlays or spending. In the United States tax code, there are tax expenditures for everything from buying cars and houses to having children or working. Once tax expenditures are included in the traditional welfare effort measurement, the United States becomes average in terms of welfare spending when compared to other more `generous' nations \citep[Ch. 1]{howard2008}.
+
+When considering the four described mechanisms of policy provision in the United States, it is important to note that these tools and their resulting policies were not created and are not maintained in isolation from one another. In fact, these tools and policies can work together, exist in conflict with one another, and layer on top of each other. Social policy in the United States seeks to alleviate a social problem. Politicians, based on the political context of the time, will utilize different tools and strategies in an attempt to pass legislation that solves that problem. Of course, political context and perceived political problems are dynamic processes and they change over time -- resulting in a disparate set of policies that seek to solve the same goal, but use functionally different tools.
+
+Even though tax expenditure spending should be viewed analogously to visible government spending, the politics between the two types of policy are quite different and reactive to one another. One illustrative example is the case of poverty in America. Building on a program to aid single mothers, Congress passed a program called Aid to Dependent Children (ADC) which subsidized state programs for that constituency. By the 1960s, through a series of eligibility changes enacted over the previous thirty years, ADC was the biggest welfare program in the country and served many more types of constituencies than just single mothers. As more Americans became eligible and started receiving ADC, it became increasingly unpopular among the public and elites. Even though the program had never been popular among Americans, it was especially vulnerable to retrenchment in the early years of the Nixon presidency. With the main poverty alleviation program unlikely to be expanded, but with the problem of poverty remaining, elites still wished to legislate around the issue. In 1974 and in spite of the desperately unpopular ADC, Congress quietly passed a refundable tax credit for the working poor. The Earned Income Tax Credit (EITC) as it was called was a wage subsidy for low income people that would zero out their income tax liability and if any of the reward remained, the federal government would send the recipient a check for the remainder. While ADC was never expanded again and ultimately repealed and replaced with a far different program, the Earned Income Credit, social policy through the tax code, was expanded both in eligibility and generosity several times in subsequent decades \citep{stewart1991}. The EITC was expanded so much so that when ADC was replaced in 1996, the EITC cost the federal government twice as much as ADC \citep{myles1997}. This is an excellent example of the relationship between hidden programs and visible programs. Because ADC became so unpopular, members of Congress had to utilize different policy making tools to pursue the same sort of goals of ADC.
+
+Ultimately, American social policy uses four different types of mechanisms that both work together and compete with one another to provide services. Over time, these services and policies layer upon one another because political contexts change, which open or close different policy streams, changing the relative effectiveness and impact of the tools used to create policy \citep{kingdon2011}. Sometimes policies are retrenched and removed like in the case of ADC and sometimes the policies surrounding some issue grow and grow because other avenues are closed off like in the case of the EITC. Additionally, that different tools create different types of policies (even though they may serve the same goal), creates different politics. As illustrated above, the politics of visible programs may be radically different from the politics of tax expenditure programs. All of these factors come together to form the `exceptional' American welfare state -- a disparate web of interconnected and sometimes competing policies which have layered over time and have been enacted through one of four distinct policy making mechanisms.
+
+\subsection{Why does American social policy look this way?}
+Having briefly described the four mechanisms that the government uses to produce American social policy, we now turn to an overview of why and how the United States created and maintains this type of welfare regime. The United States has a fragmented welfare state with several different types of policies for each goal it tries to alleviate. How did America reach that point? Most research on the American welfare state deals with hypotheses for why the United States has limited \emph{visible} social spending when compared to other developed countries while at the same time, largely overlooking non visible aspects of the welfare system.
+
+While imperfect, the explanations for the lack of visible social spending in the United States are a good start for discussing policy making overall. Political science does not understand very well what factors lead politicians to utilize one policy making tool over another in either the creation process or the maintenance process. We do however understand a lot about what contributed to the creation of the visible welfare state. Questions of visible spending are very much the conventional questions in American welfare state research. Pragmatically, by initially focusing on the conventional wisdom we can clearly draw out areas that are overlooked.
+
+Some scholars think that the United States lacks visible spending because American elites and citizens do not want to have a `generous' welfare state \citep{king1973}. The scholars who make this sort of argument generally rely on terms such as political culture or public opinion data to argue that Americans do not believe in a Scandinavian style welfare system. As such, politicians do not feel the pressure to pass that style of welfare and supporting such programs might even be an overall negative for the politician. It is worth noting that support for current welfare programs is relatively high suggesting that American political culture is not a complete explanation for the relative lack of visible welfare spending \citep[Ch. 6]{howard2008}.
+
+Some scholars think that the relationship between labor, business and the state is responsible for variation in social spending \citep{korpi1980, swenson2004}. This argument, often times called the social democratic model or power resources theory, highlights how the interactions between capital, labor, and the state affected the welfare policy creation process. These hypotheses are not in full agreement as to the role of any of these actors however. Some scholars emphasize that organized labor had to overcome `naturally hostile' business interests in order to expand welfare programs and that American labor was simply unable to do that. Others argue that large business interests worked with the federal government to create certain welfare programs to offload business expenses to the government. In any case, these scholars emphasize the role of business and unions (or lack thereof) to explain the creation (or lack thereof) of the American welfare state. 
+
+The third major hypothesis is that the American institutional arrangements create a barrier to passing legislation in general and this drastically reduced the federal government's ability to create expansive welfare policies \citep{pierson1995, robertson2011}. One exceptionally American trait is that the United States has an extremely large number of spots along the policy making process where a proposal's journey can be derailed if a key person or group does not support the proposal. The multitude of veto points or veto players, as they are called, allows a large number of ways to stop legislation unless veto players are appeased in some way. This includes formal legislative points such as passing a proposal out of committee or overcoming a filibuster as well as less formal elements like interest group support. One prominent way which veto points limited visible spending in the United States is that southern Democrats delayed and reduced welfare spending during the New Deal period in order to ensure African Americans were not able to receive the same level of benefits as whites \citep{katznelson2013}. 
+
+These three schools of thought, as I have said, only deal with visible spending as a `dependent variable.' There are large parts of the policy making process which are removed from the discussion, as mentioned in section 2.1. The largest and most obvious oversight is that these theories fail to consider non visible forms of welfare. This in itself is not interesting as prominent work has explored the `hidden welfare state' but what can be interesting is if there are different theoretical factors of interest that affect hidden welfare policy creation differently than they might affect visible welfare policy creation.
+
+One such factor may be that different divided government situations encourage use of different policy making mechanisms.  The institutionalist theory indirectly accounts for divided government in that it could plausibly use divided government as a veto point, however the influence of such a veto point is unclear. Prominently, \cite{mayhew1990} argues that divided government has no real effect on `major' legislation passed in a given congress. In this case, major legislation means highly salient legislation and does not account for a hidden-visible spending construct. Conversely, divided government has been mentioned as relevant to the creation of hidden welfare spending. \citet[Ch. 4]{howard2008} argues that divided government is associated with more hidden welfare policies being made as it is harder to pass visible legislation in a situation with lots of veto points. The logic goes that highly salient legislation containing lots of visible spending will be harder to pass in divided government situations and that combined with demand for social policy. To fill that demand, interested members of congress utilize hidden policies instead of overt visible spending. In short, the potential role of divided government is ripe for a systematic examination.
+
+Another interesting factor that may affect visible and hidden policies differently is conditional party government. Conditional party government is when parties in the House of Representatives are ideologically homogeneous and ideologically distant from one another, the centralized leadership will be stronger \cite{rohde1991}. Traditionally it is assumed that centralized leadership eases legislative veto points and allows policy to be more easily made. Yet, both the New Deal and the Great Society -- the two largest expansions of visible welfare spending in American history -- came during the 1930s and 1960s, both of which are not times of centralized leadership. That is, house power was decentralized during these two periods, allowing committee chairs rather than the Speaker of the House to hold the majority of chamber power, drastically increasing the number of veto points during the legislative process. This is an interesting observation as the hidden welfare state was created and expanded during areas of strong centralized leadership or fewer veto points and the visible welfare state was created and expanded during times of more veto points.
+
+A third potential area where some factor may affect welfare spending differently depending on visibility is interest group support. There is a lot of research about how interest groups may affect `general,' unspecified legislation, (see \citealt{hall2006} for instance) but there is less when applied specifically to hidden policies. To that end, both scholarly and popular accounts comment on how powerful lobbyists are able to carve out tax expenditures for their  powerful clients \citep{hacker2011, leibovich2013} and while it is feasible that interest groups or lobbyists are more effective when dealing with tax expenditures, we do not know for sure. Additionally, there are several hidden policies for low income people such as the Earned Income Tax Credit which, which benefit a politically weak constituency. Trying to discern the relative impact of interest group support based on visibility would also be worthwhile.
+
+One lesson to take away from identifying different theoretical quantities of interest that could interact with both visible and hidden policy creation is that we can learn a lot about policy making from the congressional literature. Much of the initial policy creation and development occurs in the legislature, yet research on social policy in the American context does not utilize the extremely large body of work on the United States Congress. By more explicitly including congressional research into the social policy creation literature, we would enrich both bodies of literature and also test hypotheses developed within the congressional literature against a whole new set of cases.
+
+Pivoting from that critique, another consequence of just focusing on visible spending is that we are unable to understand the welfare policy making process as an integrated whole. Why would the United States create a hidden program \emph{instead} of a visible program? The United States has created lots of hidden policies before, in between, and after, the explosion of visible programs in the 1930s and 1960s yet we do not know why elites utilized different legislative strategies \citep[Ch. 2]{howard2008}. Moreover, many of the hidden programs created during the non big bang periods had the same goals as the visible programs created in those periods such as encouraging higher education, reducing poverty, or providing health insurance but we consider individual programs in isolation from the others. It is an important oversight that most conventional research on American social policy does not account for different ways of providing the policy, instead focusing unilaterally on one of the four earlier mentioned mechanisms. If policy is, in a general sense, continually being made then there is a very large hole in our understanding of American social policy creation because we cannot explain why one type of policy was adopted over another.
+
+The best way to solve this problem is to view social policy as goal oriented rather than focusing on individual policies. The United States encourages housing by allowing home owners to deduct part of their mortgage from their income taxes, providing public housing, providing section eight housing vouchers, and several other policies. By focusing solely on one of these policies to the exclusion of the others, we cannot say that we understand how social policy is made in the United States. It is only through dealing with, in this case, housing policy as a whole that we will be able to better understand social policy making.
+
+Another overlooked aspect of the American welfare state literature is that they are only concerned with policy creation and not policy development. While policy creation is important, there are two constituent parts of American social policy -- creation and maintenance -- which need to be discussed in attempting to understand the policy making process. The lack of attention to what happens to policy \emph{after} enactment undermines our understanding of the policy making process as a whole especially when policy development can be just as important as policy enactment \citep{patashnik2008}. For instance, if we only concerned ourselves with the creation of Social Security, we would still see a program that excluded large chunks of the population, was largely not a universal program, and still had relatively weak benefits. It was only through post creation development where Social Security became the program we know today \citep{derthick1979}.
+
+There is one notable exception to most of these complaints and that is \citet{hacker2002}'s discussion of health insurance and pensions in the United States. In this case, he focuses on one group of policies and shows how historical timing and sequence with individual policies or government decisions created a path dependent locked in policy arrangement for each group of policies. He examines not just visible and not just hidden policies, but most individual policies dealing with health insurance or pensions, respectively. He additionally develops a conceptually rich temporal story about how temporal sequence and timing contributed to the creation and growth of the welfare state in general. The \cite{hacker2002} research is ground breaking, especially in dealing with temporal issues, but it is quite unique in both scope and style, especially when compared to the conventional wisdom as it relates to visible welfare programs.
+
+Previous literature concerning the American welfare state, while rich and descriptive, has four major holes that if filled would result in a much better understanding of the welfare state and policy making as whole. First, and most obvious, is that previous literature largely focuses on visible spending and spending to the exclusion of other types of less visible spending. Second, most American welfare policy research does not explicitly draw upon the extremely voluminous body of congressional literature. There are many well developed hypotheses and theories of policy making in the congressional literature but they are not applied to the welfare state policing making literature. Third, most welfare state literature only deals with individual policies when we could derive tremendous leverage out of viewing policies as goal oriented and analyzing several policies, hidden \emph{and} visible, that have similar goals. Fourth and lastly, previous literature has largely overlooked what happens to a policy after it has passed -- analyzing only what factors are relevant for initial policy passage.
+
+ 
+\section{Questions Addressed}
+
+1. What does hidden mean in a relational context?
+(note: often times scholarship deals with only the visible welfare state or the hidden welfare state. As these two ideal types do not exist in isolation, it makes much more sense to talk about social policy surrounding a goal as a whole instead of just one policy mechanism.
+
+2. What factors encourage politicians to utilize one policy making strategy over another?
+
+3. What is the hidden welfare state? 
+
+One disadvantage of pivoting away from unilaterally considering visible spending is that we develop different terms to describe the new areas of study.
+
+4. What parts of Congressional Research can we apply to the welfare policy making questions?
+
+5. How does policy development and policy creation interact with a goal oriented view of social policy?
+
+cite the \citep{pierson2004b} article here.
+
+The overlooked aspects of the social policy literature in the durability and holistic aspects can potentially interact in theoretically interesting ways.
+There is also a quality which may not be obvious at first but pervades the four policy making mechanisms. Previous research has talked about hidden versus visible but it is more complicated than that. Politicians may deliberately choose less visible policies making techniques because it is easier for those policies to be entrenched and thus creates more durable policy.
+
+		* What factors led to the persistence or durability of this regime?
+		* Explain how these policies have layered over time.
+
+
+\section{Research Design}
+
+
+
+
+
+\newpage
+    \bibliography{EITC}{}
+\bibliographystyle{jpe}
+
+%\printbibliography
+\end{document}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ccc} \toprule
+\multirow{3}{*}{\begin{sideways}Paper\end{sideways}}
+\multicolumn{2}{c}{Hidden to Public} \\
+\cmidrule(r){1-2} First name & Last Name & Grade \\
+\midrule John & Doe & $7.5$ \\ Richard & Miles & $2$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
